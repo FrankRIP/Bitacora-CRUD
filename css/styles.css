@@ -1,0 +1,160 @@
+/*General*/
+html{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Navegacion */
+.navBarra{
+	background-color: #343779;
+	height: 2rem;
+}
+span{
+	color: white;
+	font-size: 1.5rem;
+	padding: 1.5rem;
+	margin: .5rem;
+}
+
+.editarRegistros{
+	text-decoration: none;
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+.containerEdicion{
+	text-align: right;
+	margin-bottom: 0;
+}
+
+/* Insertar Info*/
+.container-add{
+	width: 90%;
+	margin: 50px auto;
+}
+
+.container__title{
+	margin: 0;
+	padding: 10px;
+	background: #343779;
+	font-size: 1.9em;
+	text-align: center;
+	color: white;
+}
+
+.container__form{
+	background: white;
+	box-shadow: 0 0 20px #333;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.container_label{
+	font-size: 1.3em;
+	width: 20%;
+}
+
+.container__input{
+	width: 100%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	padding: 5px;
+}
+
+/* F86041*/
+.container__input_button{
+	background: #343779;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin: 15px auto;
+	width: 100px;
+	font-size: 1.1em;
+	cursor: pointer;
+	flex-direction: flex-end;
+}
+
+/*Ver Informacion*/
+.container_table{
+	width: 90%;
+	background: white;
+	box-shadow:0 0 20px #333;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: 50px;
+}
+
+.table_title{
+	background-color: #F86041;
+	grid-column-start: 1;
+	grid-column-end: 6;
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.headerT, .itemm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.headerT{
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #343779;
+	color: white;
+}
+
+.itemm{
+	padding: 10px;
+	font-size: 1em;
+}
+
+/*Ventana edicion*/
+/*Titulo */
+.tablaEdicion{
+	grid-template-columns: repeat(6, 1fr);
+	width: 95%;
+	min-width: 900px;
+	grid-auto-rows: 70px;
+	
+}
+.container_table_edit{
+	width: 90%;
+	background: white;
+	box-shadow:0 0 20px #333;
+	margin: 50px auto;
+	display: grid;
+	grid-auto-rows: 50px;
+}
+
+.tituloEdicion{
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+.table__item__link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;	
+}
+.table__item__edit{
+	display: flex;
+	justify-content: center;
+}
+
+.botonAct{
+	background-color: #343779;
+	cursor: pointer;
+	margin: 0;
+	font-size: .8em;
+}
